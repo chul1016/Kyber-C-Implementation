@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -O3 -Wall -Wextra -Iinclude
+CFLAGS = -O3 -Wall -Wextra -Iinclude -pg
 # 소스 파일 목록: src 폴더의 모든 .c 파일
 SOURCES = $(wildcard src/*.c)
 # 헤더 파일 목록 (의존성 체크용)
